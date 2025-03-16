@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#divider {
+  border: none;
+  border-top: 1px solid #838383; /* Cor da linha */
+  background-color: #211717;
+  width: 80%;
+  align-items: center;
+  justify-self: center;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Estilos de Texto */
+h2, h4 {
+  color: #1E90FF;
+  margin-bottom: 10px;
+}
+
+.bold-blue, .blue-bold {
+  font-weight: bold;
+  color: #1E90FF;
+}
+
+.setores {
+  color: #333;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+
+/* About */
+.about-container {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 7rem;
+  gap: 20px;
+}
+
+.workmaster {
+  background-color: #f1f1f1;
+  padding: 7rem;
+}
+
+.about {
+  max-width: 50%;
+}
+
+#serv {
+  color: #505050;
+  opacity: 0.8;
+  margin-top: 0.9rem;
+}
+
+.about h3 {
+  color: #505050;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.about a button,
+.whatsappButton {
+  all: unset;
+  background: none;
+  border: none; 
+  padding: 0; 
+  font: inherit;
+  color: inherit; 
+  cursor: pointer; 
+}
+
+.about a button,
+.whatsappButton {
+  display: inline-flex;
+  gap: 0.4rem;
+  border: 1.3px solid #1E90FF;
+  padding: 0.7rem 1rem;
+  border-radius: 15px;
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  transition: 0.8s ease;
+}
+
+.about a button:hover,
+.whatsappButton:hover {
+  background-color: #1E90FF;
+  color: white;
+  transform: scale(1.2);
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.8s ease;
+}
+
+#work svg {
+  font-size: 1.5rem;
+}
+
+#work:hover {
+  background-color: #333;
+  border: none;
+}
+
+.tecnologias {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+  gap: 20px;
+}
+
+.tecnologias ul {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.tecnologias ul li{
+  font-size: 40px;
+  color: #1E90FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+#React {
+  font-size: 6.0rem;
+  grid-column: 2 / 3;
+  place-self: center;
+  animation: spin 20s linear infinite;
+  transform-origin: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.line svg {
+  font-size: 3rem;
+}

@@ -1,0 +1,36 @@
+.padrao {
+  color: white;
+  text-decoration: none;
+  transition: 0.9s;
+}
+
+li a{
+  font-size: 1.2rem;
+}
+
+.padrao:hover {
+  color: #272727;
+  font-weight: bold;
+  transition: .4s;
+  background-color: #ffffff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+#menu-itens {
+  background-color: #272727;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.itens-main-menu {
+  display: flex;
+  gap: 1rem;
+  align-items: end;
+}
+
+.logo {
+  color: white;
+}
